@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Atlas Austral · Cartografias de uma Internacionalista do Sul</title>
+<meta name="description" content="Atlas Austral: mapas, painéis interativos e bases de dados de Bianca Chagas sobre território, comércio e desenvolvimento.">
+<link rel="canonical" href="https://biachagas.github.io/">
+<link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-96.png" sizes="96x96" type="image/png">
+<link rel="icon" href="/favicon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="/favicon-180.png">
+<meta name="theme-color" content="#0C1E33">
+<!-- Nome do site para o Google (vale para biachagas.github.io e as subpastas) -->
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "WebSite", "name": "Atlas Austral", "alternateName": "Atlas Austral · Cartografias de uma Internacionalista do Sul", "url": "https://biachagas.github.io/"}
+</script>
+<style>
+  :root { --navy: #0C1E33; --areia: #F3E7D3; --laranja: #F2691F; --rosa: #E85A8A; --verde: #62B7B2; --fundo: #FDF9F3; --laranja-txt: #A83F12; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; min-height: 100%; }
+  body { min-height: 100vh; display: flex; flex-direction: column; background: var(--fundo); color: var(--navy);
+         font: 1rem/1.55 "Segoe UI", system-ui, -apple-system, Roboto, "Helvetica Neue", Arial, sans-serif;
+         background-image: radial-gradient(ellipse 70% 60% at 100% 100%, rgba(232,90,138,.22), transparent 70%),
+                           radial-gradient(ellipse 60% 55% at 100% 0%, rgba(242,105,31,.16), transparent 70%); }
+  main { flex: 1; display: flex; align-items: center; justify-content: center; padding: 48px 24px; }
+  .cartao { width: min(100%, 640px); text-align: center; }
+  .logo { width: min(100%, 360px); height: auto; }
+  .filete { width: 72px; height: 3px; margin: 26px auto 22px; background: linear-gradient(90deg, var(--laranja), var(--rosa)); border-radius: 2px; }
+  h1 { font: 700 clamp(1.7rem, 4.5vw, 2.4rem)/1.2 Georgia, "Times New Roman", serif; margin: 0 0 12px; }
+  h1 i { color: var(--laranja-txt); }
+  p.sub { font: italic 1.1rem/1.5 Georgia, "Times New Roman", serif; margin: 0 0 30px; }
+  .botoes { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
+  .btn { display: inline-block; padding: 12px 22px; border-radius: 10px; font-weight: 700; text-decoration: none; }
+  .btn.pri { background: var(--navy); color: #fff; box-shadow: inset 0 -3px 0 var(--rosa); }
+  .btn.sec { border: 2px solid var(--laranja); color: var(--navy); background: #fff; }
+  .btn:focus-visible { outline: 3px solid var(--laranja); outline-offset: 3px; }
+  .en { margin-top: 26px; font-size: .9rem; color: #4A5563; }
+  .en a { color: var(--navy); }
+  footer { padding: 18px 24px 22px; text-align: center; font-size: .8rem; color: #4A5563; border-top: 3px solid; border-image: linear-gradient(90deg, var(--laranja), var(--rosa)) 1; }
+  footer a { color: var(--navy); }
+</style>
+</head>
+<body>
+<main>
+  <div class="cartao">
+    <img class="logo" src="logo-atlas-austral.svg" width="1260" height="300" alt="Atlas Austral">
+    <div class="filete" aria-hidden="true"></div>
+    <h1>Cartografias de uma <i>Internacionalista</i> do Sul.</h1>
+    <p class="sub">Mapas, painéis interativos e bases de dados sobre território, comércio e desenvolvimento.</p>
+    <nav class="botoes" aria-label="Sites">
+      <a class="btn pri" href="/atlas-austral/">Entrar no Atlas Austral</a>
+      <a class="btn sec" href="/comex-bahia-atlas-austral/">Painel Comércio Exterior da Bahia</a>
+    </nav>
+    <p class="en" lang="en">Cartographies of an Internationalist from the South. <a href="/atlas-austral/?lang=en">Enter the Atlas Austral in English</a>.</p>
+  </div>
+</main>
+<footer>
+  © 2026 Bianca Glória França de Oliveira Chagas · <a href="https://orcid.org/0009-0009-4859-8666">ORCID</a> · Este site não usa cookies nem ferramentas de rastreamento.
+</footer>
+</body>
+</html>
