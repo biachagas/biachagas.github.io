@@ -36,6 +36,7 @@
   .btn { display: inline-block; padding: 12px 22px; border-radius: 10px; font-weight: 700; text-decoration: none; }
   .btn.pri { background: var(--navy); color: #fff; box-shadow: inset 0 -3px 0 var(--rosa); }
   .btn.sec { border: 2px solid var(--laranja); color: var(--navy); background: #fff; }
+  .btn.off { border-style: dashed; opacity: .8; cursor: default; } /* pré-lançamento */
   .btn:focus-visible { outline: 3px solid var(--laranja); outline-offset: 3px; }
   .en { margin-top: 26px; font-size: .9rem; color: #4A5563; }
   .en a { color: var(--navy); }
@@ -52,7 +53,7 @@
     <p class="sub">Mapas, painéis interativos e bases de dados sobre território, comércio e desenvolvimento.</p>
     <nav class="botoes" aria-label="Sites">
       <a class="btn pri" href="/atlas-austral/">Entrar no Atlas Austral</a>
-      <a class="btn sec" href="/comex-bahia-atlas-austral/">Painel Comércio Exterior da Bahia</a>
+      <span class="btn sec off" aria-disabled="true">Painel Comércio Exterior da Bahia · lançamento em abr/2027</span>
     </nav>
     <p class="en" lang="en">Cartographies of an Internationalist from the South. <a href="/atlas-austral/?lang=en">Enter the Atlas Austral in English</a>.</p>
   </div>
